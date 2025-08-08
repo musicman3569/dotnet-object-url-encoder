@@ -1,7 +1,10 @@
 # .NET Object URL Encoder
 
-Currently, .NET lacks a single function for encoding complex objects to a URL-encoded query string. This library
-provides methods for passing in an Object of any type and utilizing JSON encoding attributes to produce
+Currently, .NET lacks a single function for encoding complex objects to a URL-encoded query string. This can
+become very cumbersome having to recursively iterate objects one field at a time, encoding the property
+and the value, and finally concatenating the result with the correct separator tokens.
+
+This library provides methods for passing in an Object of any type and utilizing JSON encoding attributes to produce
 the equivaline URL-encoded string:
 
 For example, the following .NET object (represented here by JSON for readability):
