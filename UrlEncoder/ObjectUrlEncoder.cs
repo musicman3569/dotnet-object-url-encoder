@@ -5,7 +5,7 @@ using Newtonsoft.Json.Converters;
 
 namespace UrlEncoder;
 
-public class ObjectEncoder
+public class ObjectUrlEncoder
 {
     /// <summary>
     /// Serializes complex native objects, nested objects, collections, and nested collections into a URL-encoded query
@@ -57,7 +57,7 @@ public class ObjectEncoder
     /// <returns>Returns</returns>
     public static string SerializeJsonToUrlEncodedString(string jsonString)
     {
-        var jToken = (JToken)JsonConvert.DeserializeObject(jsonString);
+        var jToken = (JToken) JsonConvert.DeserializeObject(jsonString);
         return SerializeJToken(jToken);
     }
 

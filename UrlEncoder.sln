@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlEncoder", "UrlEncoder\UrlEncoder.csproj", "{E0521481-72AF-4EFA-90F9-CA8FC55F86FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlEncoderTest", "UrlEncoderTest\UrlEncoderTest.csproj", "{8C8F7271-2BBB-4132-A39B-ACE2787858A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E0521481-72AF-4EFA-90F9-CA8FC55F86FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0521481-72AF-4EFA-90F9-CA8FC55F86FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0521481-72AF-4EFA-90F9-CA8FC55F86FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8F7271-2BBB-4132-A39B-ACE2787858A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8F7271-2BBB-4132-A39B-ACE2787858A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8F7271-2BBB-4132-A39B-ACE2787858A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8F7271-2BBB-4132-A39B-ACE2787858A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
