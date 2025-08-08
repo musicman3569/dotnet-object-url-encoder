@@ -5,7 +5,7 @@ become very cumbersome having to recursively iterate objects one field at a time
 and the value, and finally concatenating the result with the correct separator tokens.
 
 This library provides methods for passing in an Object of any type and utilizing JSON encoding attributes to produce
-the equivaline URL-encoded string:
+the equivalent URL-encoded string:
 
 For example, the following .NET object (represented here by JSON for readability):
 ```json
